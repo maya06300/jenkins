@@ -4,7 +4,7 @@ pipeline {
 			image 'node:6-alpine'
 		}
 	}
-	environnements {
+	environnement {
 		CI = 'true'
 	}
 	stages {
